@@ -14,6 +14,14 @@ wget https://raw.githubusercontent.com/GordonOboh/zeit_release/master/build-zeit
 chmod +x build-zeit-appimage.sh
 ./build-zeit-appimage.sh
 ```
+or
+
+```bash
+git clone https://github.com/GordonOboh/zeit_release.git
+cd zeit_release/
+chmod +x build-zeit-appimage-local.sh
+./build-zeit-appimage-local.sh
+```
 
 ### Features: ###
 * Add, edit and delete `crontab` tasks
