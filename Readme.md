@@ -4,7 +4,7 @@
 ### Appimage Build ###
 Appimage build script was tested on Lubuntu 22.04.2 LTS vm
 ```bash
-sudo apt install curl
+sudo apt install curl -y
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/GordonOboh/zeit_release/master/build-zeit-appimage.sh)"
 ```
 or
