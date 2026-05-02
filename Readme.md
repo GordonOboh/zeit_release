@@ -1,6 +1,19 @@
 # Zeit project
  Qt frontend to `crontab` and `at`
 
+### Appimage Build ###
+```bash
+sudo apt install curl
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/GordonOboh/zeit_release/master/build-zeit-appimage.sh)"
+```
+or
+
+```bash
+wget https://raw.githubusercontent.com/GordonOboh/zeit_release/master/build-zeit-appimage.sh
+chmod +x build-zeit-appimage.sh
+./build-zeit-appimage.sh
+```
+
 ### Features: ###
 * Add, edit and delete `crontab` tasks
 * Add, edit and delete environment variables for `crontab`
