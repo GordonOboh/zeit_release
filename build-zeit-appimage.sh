@@ -57,4 +57,11 @@ echo "=== Copying result and cleaning up ==="
 cp Zeit-*.AppImage ..
 cd ..
 rm -rf zeit/   # remove entire build folder
+sudo apt remove --purge libcrontab0
+
+# Mark a "meta" package or just record the list
+sudo apt-mark manual build-essential cmake git wget \
+    qtbase5-dev qttools5-dev qttools5-dev-tools \
+    libkf5auth-dev libkf5coreaddons-dev extra-cmake-modules
+    
 echo "Done! AppImage is in the current directory: $(ls Zeit-*.AppImage)"
