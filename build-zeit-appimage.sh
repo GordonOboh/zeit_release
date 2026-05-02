@@ -21,7 +21,7 @@ echo "=== Cloning Zeit source ==="
 git clone https://github.com/loimu/zeit.git
 cd zeit
 
-echo "=== Downloading linuxdeploy tools ===""
+echo "=== Downloading linuxdeploy tools ==="
 wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
 wget -q https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
 chmod +x linuxdeploy-x86_64.AppImage linuxdeploy-plugin-qt-x86_64.AppImage
