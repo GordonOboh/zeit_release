@@ -1,6 +1,6 @@
 # Zeit project
  Qt frontend to `crontab` and `at`
-
+Arch User can check here; [https://aur.archlinux.org/packages/zeit-git](https://aur.archlinux.org/packages/zeit-git)
 ### Appimage Build ###
 Appimage build script was tested on Lubuntu 22.04.2 LTS vm
 ```bash
